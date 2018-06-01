@@ -99,7 +99,7 @@ class AipSpeech(AipBase):
 
 if __name__ == "__main__":
     call_url = "http://ksp2tc.natappfree.cc/test"
-    speech = AipSpeech(1256603936,"AKIDujNq9jTp7E9tWzhQVTHvPjsqeHtMnsul","ugJ3d3MVTGtMitukPtCKpAOUQBk9OSLD")
+    speech = AipSpeech(yourappid,"yourid","yourkey")
     sortkeydict = speech.sortparms(call_url)
     print(sortkeydict)
     signature_str = speech.keygen(sortkeydict)
