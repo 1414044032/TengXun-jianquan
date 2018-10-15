@@ -20,7 +20,7 @@ class AipBase(object):
 
     def getVersion(self):
         return self.__version
-
+    # 生成随机字符串
     def getrandom(self,length):
         nonce = ''
         for i in range(length):
