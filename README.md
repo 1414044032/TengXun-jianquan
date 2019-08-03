@@ -9,7 +9,7 @@
 ## 使用方法：
 ### 填充参数即可：
 
-     回调地址 
+     回调地址 (接受响应的外网地址)
     call_url = "http://ksp2tc.natappfree.cc/test"
      实例化类，填写腾讯云提供的参数
     speech = AipSpeech("yourappid","yourid","yourkey")
